@@ -1,0 +1,1315 @@
+/*==============================
+FEATURED COLLECTION
+==============================*/
+
+.featured-section{
+    padding:90px 0;
+    background:#fafafa;
+}
+
+.section-subtitle{
+
+    color:#d4af37;
+
+    text-transform:uppercase;
+
+    letter-spacing:3px;
+
+    font-weight:600;
+
+    font-size:14px;
+
+}
+
+.section-title{
+
+    font-size:42px;
+
+    font-family:'Playfair Display',serif;
+
+    margin:15px 0;
+
+    color:#222;
+
+}
+
+.section-description{
+
+    max-width:650px;
+
+    margin:auto;
+
+    color:#777;
+
+    font-size:16px;
+
+}
+
+.collection-card{
+
+    background:#fff;
+
+    overflow:hidden;
+
+    border-radius:8px;
+
+    margin-bottom:30px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+}
+
+.collection-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
+
+.collection-image{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.collection-image img{
+
+    width:100%;
+
+    height:320px;
+
+    object-fit:cover;
+
+    transition:.6s;
+
+}
+
+.collection-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.collection-overlay{
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:100%;
+
+    background:rgba(0,0,0,.55);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    opacity:0;
+
+    transition:.5s;
+
+}
+
+.collection-card:hover .collection-overlay{
+
+    opacity:1;
+
+}
+
+.collection-content{
+
+    padding:25px;
+
+    text-align:center;
+
+}
+
+.collection-content h3{
+
+    margin-top:0;
+
+    color:#222;
+
+    font-weight:bold;
+
+}
+
+.collection-content p{
+
+    color:#777;
+
+    line-height:28px;
+
+}
+
+.btn-gold{
+
+    background:#d4af37;
+
+    color:#fff;
+
+    padding:10px 22px;
+
+    border-radius:0;
+
+}
+
+.btn-gold:hover{
+
+    background:#b99225;
+
+    color:#fff;
+
+}
+/*==================================
+ABOUT SECTION
+==================================*/
+
+.about-section{
+
+    padding:90px 0;
+    
+    background:#fff;
+    
+    }
+    
+    .about-image{
+    
+    overflow:hidden;
+    
+    border-radius:10px;
+    
+    box-shadow:0 20px 40px rgba(0,0,0,.10);
+    
+    }
+    
+    .about-image img{
+    
+    width:100%;
+    
+    transition:.6s;
+    
+    }
+    
+    .about-image:hover img{
+    
+    transform:scale(1.05);
+    
+    }
+    
+    .about-content{
+    
+    padding-left:20px;
+    
+    }
+    
+    .gold-text{
+    
+    color:#d4af37;
+    
+    }
+    
+    .about-content p{
+    
+    color:#666;
+    
+    line-height:30px;
+    
+    margin-bottom:20px;
+    
+    }
+    
+    .about-feature{
+    
+    margin-top:30px;
+    
+    margin-bottom:30px;
+    
+    }
+    
+    .feature-box{
+    
+    background:#fafafa;
+    
+    padding:25px;
+    
+    text-align:center;
+    
+    border-radius:8px;
+    
+    transition:.4s;
+    
+    margin-bottom:20px;
+    
+    }
+    
+    .feature-box:hover{
+    
+    background:#d4af37;
+    
+    color:#fff;
+    
+    transform:translateY(-8px);
+    
+    }
+    
+    .feature-box:hover p{
+    
+    color:#fff;
+    
+    }
+    
+    .feature-box i{
+    
+    font-size:40px;
+    
+    margin-bottom:15px;
+    
+    color:#d4af37;
+    
+    }
+    
+    .feature-box:hover i{
+    
+    color:#fff;
+    
+    }
+    
+    .feature-box h4{
+    
+    font-weight:bold;
+    
+    margin-bottom:10px;
+    
+    }
+    
+    .counter-box{
+    
+    background:#111;
+    
+    padding:35px;
+    
+    text-align:center;
+    
+    margin-top:20px;
+    
+    border-radius:8px;
+    
+    transition:.4s;
+    
+    }
+    
+    .counter-box:hover{
+    
+    background:#d4af37;
+    
+    }
+    
+    .counter-box h2{
+    
+    color:#fff;
+    
+    font-size:42px;
+    
+    margin-bottom:10px;
+    
+    font-family:'Playfair Display',serif;
+    
+    }
+    
+    .counter-box p{
+    
+    color:#ddd;
+    
+    font-size:16px;
+    
+    margin:0;
+    
+    }
+    
+    .counter-box:hover p{
+    
+    color:#fff;
+    
+    }
+    /*=========================================
+WHY CHOOSE US
+==========================================*/
+
+.why-section{
+
+    padding:100px 0;
+    
+    background:#f9f9f9;
+    
+    }
+    
+    .why-card{
+    
+    background:#fff;
+    
+    padding:40px 30px;
+    
+    text-align:center;
+    
+    border-radius:10px;
+    
+    margin-bottom:30px;
+    
+    transition:.4s;
+    
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    
+    }
+    
+    .why-card:hover{
+    
+    background:#111;
+    
+    transform:translateY(-10px);
+    
+    }
+    
+    .why-card:hover h3{
+    
+    color:#d4af37;
+    
+    }
+    
+    .why-card:hover p{
+    
+    color:#ddd;
+    
+    }
+    
+    .icon-circle{
+    
+    width:90px;
+    
+    height:90px;
+    
+    margin:auto;
+    
+    border-radius:50%;
+    
+    background:#d4af37;
+    
+    line-height:90px;
+    
+    margin-bottom:25px;
+    
+    transition:.4s;
+    
+    }
+    
+    .icon-circle i{
+    
+    font-size:36px;
+    
+    color:#fff;
+    
+    }
+    
+    .why-card:hover .icon-circle{
+    
+    transform:rotate(360deg);
+    
+    background:#fff;
+    
+    }
+    
+    .why-card:hover .icon-circle i{
+    
+    color:#d4af37;
+    
+    }
+    
+    .why-card h3{
+    
+    font-family:'Playfair Display',serif;
+    
+    margin-bottom:15px;
+    
+    font-size:24px;
+    
+    }
+    
+    .why-card p{
+    
+    color:#666;
+    
+    line-height:28px;
+    
+    }
+    /*==================================
+BRIDAL SECTION
+==================================*/
+
+.bridal-section{
+
+    padding:100px 0;
+    
+    background:#fffaf2;
+    
+    }
+    
+    .bridal-image{
+    
+    overflow:hidden;
+    
+    border-radius:10px;
+    
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+    
+    }
+    
+    .bridal-image img{
+    
+    width:100%;
+    
+    transition:.6s;
+    
+    }
+    
+    .bridal-image:hover img{
+    
+    transform:scale(1.05);
+    
+    }
+    
+    .bridal-content{
+    
+    padding:20px 40px;
+    
+    }
+    
+    .bridal-content h2{
+    
+    font-size:42px;
+    
+    font-family:'Playfair Display',serif;
+    
+    margin:20px 0;
+    
+    color:#222;
+    
+    }
+    
+    .bridal-content p{
+    
+    line-height:30px;
+    
+    font-size:16px;
+    
+    color:#666;
+    
+    }
+    
+    .bridal-list{
+    
+    margin-top:25px;
+    
+    padding:0;
+    
+    list-style:none;
+    
+    }
+    
+    .bridal-list li{
+    
+    padding:12px 0;
+    
+    font-size:17px;
+    
+    }
+    
+    .bridal-list i{
+    
+    color:#d4af37;
+    
+    margin-right:10px;
+    
+    }
+    
+    .btn-gold{
+    
+    background:#d4af37;
+    
+    color:#fff;
+    
+    border-radius:0;
+    
+    padding:14px 35px;
+    
+    font-weight:bold;
+    
+    transition:.4s;
+    
+    }
+    
+    .btn-gold:hover{
+    
+    background:#111;
+    
+    color:#fff;
+    
+    }
+    /*======================================
+LATEST ARRIVALS
+=======================================*/
+
+.latest-section{
+
+    padding:100px 0;
+    
+    background:#f8f8f8;
+    
+    }
+    
+    .product-card{
+    
+    background:#fff;
+    
+    border-radius:10px;
+    
+    overflow:hidden;
+    
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    
+    transition:.4s;
+    
+    margin-bottom:30px;
+    
+    }
+    
+    .product-card:hover{
+    
+    transform:translateY(-12px);
+    
+    box-shadow:0 20px 45px rgba(0,0,0,.18);
+    
+    }
+    
+    .product-image{
+    
+    position:relative;
+    
+    overflow:hidden;
+    
+    }
+    
+    .product-image img{
+    
+    width:100%;
+    
+    height:300px;
+    
+    object-fit:cover;
+    
+    transition:.5s;
+    
+    }
+    
+    .product-card:hover img{
+    
+    transform:scale(1.08);
+    
+    }
+    
+    .product-tag{
+    
+    position:absolute;
+    
+    top:15px;
+    
+    left:15px;
+    
+    background:#d4af37;
+    
+    color:#fff;
+    
+    padding:6px 14px;
+    
+    font-size:12px;
+    
+    font-weight:bold;
+    
+    border-radius:30px;
+    
+    }
+    
+    .product-content{
+    
+    padding:25px;
+    
+    text-align:center;
+    
+    }
+    
+    .product-content h4{
+    
+    font-weight:bold;
+    
+    margin-bottom:15px;
+    
+    font-family:'Playfair Display',serif;
+    
+    }
+    
+    .product-content p{
+    
+    color:#666;
+    
+    min-height:50px;
+    
+    }
+    
+    .product-content h3{
+    
+    color:#d4af37;
+    
+    font-size:24px;
+    
+    margin:20px 0;
+    
+    font-family:'Playfair Display',serif;
+    
+    }
+    /*====================================
+GOLD RATE
+====================================*/
+
+.gold-rate-section{
+
+    padding:100px 0;
+    
+    background:#111;
+    
+    color:#fff;
+    
+    }
+    
+    .rate-card{
+    
+    background:#fff;
+    
+    color:#111;
+    
+    padding:40px;
+    
+    text-align:center;
+    
+    border-radius:10px;
+    
+    transition:.4s;
+    
+    margin-bottom:30px;
+    
+    }
+    
+    .rate-card:hover{
+    
+    background:#d4af37;
+    
+    color:#fff;
+    
+    transform:translateY(-10px);
+    
+    }
+    
+    .rate-card h3{
+    
+    margin-bottom:20px;
+    
+    }
+    
+    .rate-card h1{
+    
+    font-size:48px;
+    
+    font-family:'Playfair Display',serif;
+    
+    }
+    
+    /*====================================
+    SHOWROOM
+    ====================================*/
+    
+    .showroom-section{
+    
+    padding:100px 0;
+    
+    background:#fff;
+    
+    }
+    
+    .showroom-section img{
+    
+    width:100%;
+    
+    transition:.5s;
+    
+    border-radius:10px;
+    
+    }
+    
+    .showroom-section img:hover{
+    
+    transform:scale(1.03);
+    
+    }
+    
+    .showroom-section table{
+    
+    margin:30px 0;
+    
+    }
+    
+    .showroom-section th{
+    
+    width:120px;
+    
+    background:#f8f8f8;
+    
+    }
+    /*=========================
+TESTIMONIALS
+==========================*/
+
+.testimonial-section{
+
+    padding:100px 0;
+    
+    background:#fafafa;
+    
+    }
+    
+    .testimonial-card{
+    
+    background:#fff;
+    
+    padding:30px;
+    
+    border-radius:10px;
+    
+    text-align:center;
+    
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    
+    transition:.4s;
+    
+    }
+    
+    .testimonial-card:hover{
+    
+    transform:translateY(-10px);
+    
+    }
+    
+    .customer-img{
+    
+    width:90px;
+    
+    height:90px;
+    
+    margin-bottom:20px;
+    
+    }
+    
+    .stars{
+    
+    color:#d4af37;
+    
+    font-size:20px;
+    
+    }
+    
+    /*=========================
+    NEWSLETTER
+    ==========================*/
+    
+    .newsletter{
+    
+    background:#111;
+    
+    color:#fff;
+    
+    padding:60px 0;
+    
+    }
+    
+    /*=========================
+    FOOTER
+    ==========================*/
+    
+    .footer{
+    
+    background:#1a1a1a;
+    
+    color:#ddd;
+    
+    padding:70px 0 }
+    /*==========================
+ABOUT PAGE
+===========================*/
+
+.page-banner{
+
+    background:url("images/MSG\ LOGO.jpg") center center;
+    
+    background-size:cover;
+    
+    padding:140px 0;
+    
+    text-align:center;
+    
+    color:#fff;
+    
+    position:relative;
+    
+    }
+    
+    .page-banner::before{
+    
+    content:"";
+    
+    position:absolute;
+    
+    left:0;
+    
+    top:0;
+    
+    width:100%;
+    
+    height:100%;
+    
+    background:rgba(0,0,0,.55);
+    
+    }
+    
+    .page-banner .container{
+    
+    position:relative;
+    
+    z-index:2;
+    
+    }
+    
+    .page-banner h1{
+    
+    font-size:52px;
+    
+    font-family:'Playfair Display',serif;
+    
+    margin-bottom:20px;
+    
+    }
+    
+    .about-page{
+    
+    padding:100px 0;
+    
+    }
+    
+    .about-page img{
+    
+    border-radius:10px;
+    
+    transition:.5s;
+    
+    }
+    
+    .about-page img:hover{
+    
+    transform:scale(1.03);
+    
+    }
+    
+    .mission-section{
+    
+    background:#f8f8f8;
+    
+    padding:90px 0;
+    
+    }
+    
+    .mission-box{
+    
+    background:#fff;
+    
+    padding:35px;
+    
+    text-align:center;
+    
+    border-radius:8px;
+    
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    
+    transition:.4s;
+    
+    }
+    
+    .mission-box:hover{
+    
+    background:#111;
+    
+    color:#fff;
+    
+    }
+    
+    .mission-box i{
+    
+    font-size:42px;
+    
+    color:#d4af37;
+    
+    margin-bottom:20px;
+    
+    }
+    
+    .about-card{
+    
+    padding:35px;
+    
+    text-align:center;
+    
+    background:#fff;
+    
+    margin-bottom:25px;
+    
+    border-radius:8px;
+    
+    transition:.4s;
+    
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    
+    }
+    
+    .about-card:hover{
+    
+    transform:translateY(-10px);
+    
+    }
+    
+    .about-card i{
+    
+    font-size:40px;
+    
+    color:#d4af37;
+    
+    margin-bottom:20px;
+    
+    }
+    
+    .process-section{
+    
+    padding:100px 0;
+    
+    }
+    
+    .process-box{
+    
+    text-align:center;
+    
+    padding:30px;
+    
+    }
+    
+    .step{
+    
+    width:70px;
+    
+    height:70px;
+    
+    margin:auto;
+    
+    background:#d4af37;
+    
+    border-radius:50%;
+    
+    line-height:70px;
+    
+    color:#fff;
+    
+    font-size:28px;
+    
+    font-weight:bold;
+    
+    margin-bottom:20px;
+    
+    }
+    
+    .cta-section{
+    
+    background:#111;
+    
+    color:#fff;
+    
+    padding:80px 0;
+    
+    }
+    /*====================================
+COLLECTIONS PAGE
+====================================*/
+
+.collections-intro{
+
+    padding:80px 0 40px;
+    
+    }
+    
+    .collections-page{
+    
+    padding-bottom:100px;
+    
+    }
+    
+    .collection-card{
+    
+    background:#fff;
+    
+    border-radius:10px;
+    
+    overflow:hidden;
+    
+    margin-bottom:35px;
+    
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    
+    transition:.4s;
+    
+    }
+    
+    .collection-card:hover{
+    
+    transform:translateY(-10px);
+    
+    box-shadow:0 18px 40px rgba(0,0,0,.18);
+    
+    }
+    
+    .collection-card img{
+    
+    width:100%;
+    
+    height:300px;
+    
+    object-fit:cover;
+    
+    transition:.5s;
+    
+    }
+    
+    .collection-card:hover img{
+    
+    transform:scale(1.08);
+    
+    }
+    
+    .collection-content{
+    
+    padding:25px;
+    
+    text-align:center;
+    
+    }
+    
+    .collection-content h3{
+    
+    font-family:'Playfair Display',serif;
+    
+    margin-bottom:15px;
+    
+    }
+    
+    .collection-content p{
+    
+    color:#666;
+    
+    line-height:28px;
+    
+    margin-bottom:20px;
+    
+    }
+    /*=================================
+BRIDAL PAGE
+==================================*/
+
+.bridal-banner{
+
+    background:url("images/MSG\ LOGO.jpg");
+    
+    background-size:cover;
+    
+    background-position:center;
+    
+    }
+    
+    .bridal-intro{
+    
+    padding:100px 0;
+    
+    }
+    
+    .bridal-intro img{
+    
+    transition:.5s;
+    
+    border-radius:10px;
+    
+    }
+    
+    .bridal-intro img:hover{
+    
+    transform:scale(1.04);
+    
+    }
+    /*=====================================
+GALLERY PAGE
+======================================*/
+
+.gallery-intro{
+
+    padding:80px 0 40px;
+    
+    }
+    
+    .gallery-section{
+    
+    padding-bottom:100px;
+    
+    }
+    
+    .gallery-box{
+    
+    position:relative;
+    
+    overflow:hidden;
+    
+    margin-bottom:30px;
+    
+    border-radius:10px;
+    
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    
+    }
+    
+    .gallery-box img{
+    
+    width:100%;
+    
+    height:320px;
+    
+    object-fit:cover;
+    
+    transition:.6s;
+    
+    }
+    
+    .gallery-box:hover img{
+    
+    transform:scale(1.10);
+    
+    }
+    
+    .gallery-overlay{
+    
+    position:absolute;
+    
+    left:0;
+    
+    right:0;
+    
+    bottom:0;
+    
+    padding:20px;
+    
+    background:rgba(0,0,0,.65);
+    
+    color:#fff;
+    
+    text-align:center;
+    
+    opacity:0;
+    
+    transition:.4s;
+    
+    }
+    
+    .gallery-box:hover .gallery-overlay{
+    
+    opacity:1;
+    
+    }
+    
+    .gallery-overlay h4{
+    
+    margin:0;
+    
+    font-family:'Playfair Display',serif;
+    
+    letter-spacing:1px;
+    
+    }
+    /*==================================
+GOLD RATE PAGE
+==================================*/
+
+.gold-rate-page{
+
+    padding:90px 0;
+    
+    background:#fafafa;
+    
+    }
+    
+    .rate-table{
+    
+    background:#fff;
+    
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    
+    }
+    
+    .rate-table thead{
+    
+    background:#d4af37;
+    
+    color:#fff;
+    
+    }
+    
+    .rate-table th{
+    
+    text-align:center;
+    
+    font-size:18px;
+    
+    }
+    
+    .rate-table td{
+    
+    text-align:center;
+    
+    font-size:16px;
+    
+    padding:15px;
+    
+    }
+    
+    .rate-table tbody tr:hover{
+    
+    background:#fff9e8;
+    
+    }
