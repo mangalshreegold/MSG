@@ -1,24 +1,46 @@
-# Mangal Shree Gold — GitHub Pages Package
+# Mangal Shree Gold — GitHub Pages Website
 
-This package is prepared from the uploaded website files for GitHub Pages.
+Responsive jewellery showroom website for **Mangal Shree Gold, Udaipur**.
 
-## Important
-The uploaded conversation did not include the local `images/` assets referenced by the HTML pages. The required image folders have therefore been created, but the actual JPG files must be copied into them before publishing if you want all jewellery images and the logo to display.
+## Live website
+https://mangalshreegold.github.io/MSG/
 
-Expected examples include:
-- `images/MSG LOGO.jpg`
-- `images/rings/ring-1.jpg` through `ring-12.jpg`
-- `images/necklaces/necklace-1.jpg`
-- `images/bridal/bridal-main.jpg` and bridal set images
-- `images/gallery/gallery-1.jpg` through `gallery-9.jpg`
+## Main pages
+- Home
+- About
+- Collections
+- Gold Rings
+- Gold Necklaces
+- Gold Bangles
+- Gold Earrings
+- Gold Chains
+- Bridal Jewellery
+- Gallery
+- Gold Rate
+- Contact
 
-## GitHub Pages
-1. Create a public GitHub repository.
-2. Upload all files and the entire `images/` folder.
-3. Ensure the homepage is named exactly `index.html` (already done in this package).
-4. Go to **Settings → Pages**.
-5. Select **Deploy from a branch → main → /(root)** and save.
+## Important fixes completed
+- Removed duplicate `Index.html`; the site now uses lowercase `index.html`.
+- Rebuilt the homepage and major inner pages with consistent Bootstrap 3 navigation.
+- Removed the duplicated content from `collections.html`.
+- Added responsive mobile styling.
+- Added SEO titles and descriptions to the main pages.
+- Updated canonical URLs to the GitHub Pages address.
+- Fixed the contact page form and showroom details.
+- Removed the stale hard-coded gold-rate value; visitors are directed to confirm the current rate.
+- Added reliable remote image fallbacks because the repository does not currently contain the original local JPG assets.
 
-## Notes
-- The site uses Bootstrap 3.4.1, Font Awesome, Google Fonts, jQuery and Bootstrap JS from external CDNs.
-- Existing canonical URLs have not been changed because the final GitHub Pages URL is not known yet.
+## Business details
+**Mangal Shree Gold**  
+Clock Tower Rd, Ghantaghar, Udaipur, Rajasthan 313001  
+Phone: +91 7878027249  
+Email: mangalshreegold1@gmail.com
+
+## Social links
+- Instagram: https://www.instagram.com/mangalshreegold/
+- Facebook: https://www.facebook.com/profile.php?id=61591047127861
+- YouTube: https://www.youtube.com/@MANGALSHREEGOLD
+- WhatsApp: https://wa.me/917878027249
+
+## Tech
+Bootstrap 3.4.1, Font Awesome, Google Fonts and jQuery are loaded from external CDNs. The site is static HTML/CSS and is suitable for GitHub Pages.
